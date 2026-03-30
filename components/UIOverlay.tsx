@@ -18,12 +18,23 @@ const planetData: Record<string, { emoji: string, fact: string, color: string }>
   'Mercure': { emoji: '🪨', fact: "La planète la plus proche du Soleil. Il y fait très chaud le jour et très froid la nuit !", color: "bg-gray-400" },
   'Vénus': { emoji: '☁️', fact: "Elle brille très fort dans le ciel, on l'appelle l'étoile du berger. Elle est recouverte de nuages !", color: "bg-orange-300" },
   'Terre': { emoji: '🌍', fact: "Notre belle maison ! C'est la seule planète avec de la vie, des animaux et beaucoup d'eau.", color: "bg-blue-400" },
+  'Lune': { emoji: '🌕', fact: "C'est le seul satellite naturel de la Terre. On peut y voir des cratères !", color: "bg-gray-300" },
   'Mars': { emoji: '🔴', fact: "La planète rouge ! Elle a de grands volcans et des robots roulent dessus pour l'explorer.", color: "bg-red-500" },
+  'Phobos': { emoji: '🥔', fact: "Une petite lune de Mars en forme de patate !", color: "bg-gray-500" },
+  'Deimos': { emoji: '🪨', fact: "La deuxième lune de Mars, encore plus petite que Phobos.", color: "bg-gray-400" },
   'Jupiter': { emoji: '🟠', fact: "La plus grosse planète ! Elle est faite de gaz et a une énorme tempête qui tourne tout le temps.", color: "bg-orange-500" },
+  'Io': { emoji: '🌋', fact: "Une lune de Jupiter couverte de volcans en éruption !", color: "bg-yellow-500" },
+  'Europe': { emoji: '🧊', fact: "Une lune de Jupiter recouverte de glace. Il y a peut-être un océan caché en dessous !", color: "bg-blue-200" },
+  'Ganymède': { emoji: '🌑', fact: "La plus grande lune du système solaire, elle est plus grosse que la planète Mercure !", color: "bg-gray-400" },
+  'Callisto': { emoji: '🕳️', fact: "Une lune de Jupiter couverte de très nombreux cratères.", color: "bg-gray-600" },
   'Saturne': { emoji: '🪐', fact: "La planète avec les magnifiques anneaux ! Ils sont faits de morceaux de glace et de cailloux.", color: "bg-yellow-200" },
+  'Titan': { emoji: '🌫️', fact: "La plus grosse lune de Saturne. Elle a une atmosphère très épaisse !", color: "bg-orange-400" },
   'Uranus': { emoji: '🧊', fact: "Une planète géante de glace qui tourne sur le côté, comme un tonneau !", color: "bg-cyan-300" },
+  'Titania': { emoji: '⚪', fact: "La plus grande lune d'Uranus, faite de glace et de roche.", color: "bg-gray-300" },
   'Neptune': { emoji: '❄️', fact: "La planète la plus éloignée. Elle est très froide et il y a des vents très très forts !", color: "bg-blue-600" },
+  'Triton': { emoji: '🥶', fact: "La plus grande lune de Neptune. Elle tourne à l'envers !", color: "bg-blue-300" },
   'Pluton': { emoji: '⛄', fact: "Une toute petite planète naine, très loin et recouverte de glace !", color: "bg-gray-300" },
+  'Charon': { emoji: '🌑', fact: "La grosse lune de Pluton. Ils tournent l'un autour de l'autre comme des danseurs !", color: "bg-gray-500" },
   'Nibiru': { emoji: '👁️', fact: "La mystérieuse 10ème planète ! C'est une légende fascinante de l'espace.", color: "bg-red-900" }
 };
 

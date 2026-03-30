@@ -14,17 +14,17 @@ interface SceneProps {
 }
 
 const planetsData = [
-  { name: 'Soleil', radius: 5, distance: 0, color: 0xffcc00, orbitSpeed: 0, rotationSpeed: 0.005, moons: [] },
-  { name: 'Mercure', radius: 0.4, distance: 10, color: 0xa8a8a8, orbitSpeed: 4.15, rotationSpeed: 0.01, moons: [] },
-  { name: 'Vénus', radius: 0.9, distance: 14, color: 0xe3bb76, orbitSpeed: 1.62, rotationSpeed: -0.002, moons: [] },
-  { name: 'Terre', radius: 1, distance: 19, color: 0x4b9fe3, orbitSpeed: 1, rotationSpeed: 0.02, moons: [{ name: 'Lune', radius: 0.25, distance: 1.8, color: 0xcccccc, speed: 0.05 }] },
-  { name: 'Mars', radius: 0.5, distance: 24, color: 0xe27b58, orbitSpeed: 0.53, rotationSpeed: 0.02, moons: [{ name: 'Phobos', radius: 0.1, distance: 0.8, color: 0x888888, speed: 0.08 }, { name: 'Deimos', radius: 0.08, distance: 1.2, color: 0xaaaaaa, speed: 0.06 }] },
-  { name: 'Jupiter', radius: 3.5, distance: 36, color: 0xc88b3a, orbitSpeed: 0.08, rotationSpeed: 0.05, moons: [{ name: 'Io', radius: 0.25, distance: 4.5, color: 0xffff00, speed: 0.04 }, { name: 'Europe', radius: 0.2, distance: 5.5, color: 0xeeeeff, speed: 0.03 }, { name: 'Ganymède', radius: 0.35, distance: 7, color: 0xbbbbbb, speed: 0.02 }, { name: 'Callisto', radius: 0.3, distance: 8.5, color: 0x888888, speed: 0.01 }] },
-  { name: 'Saturne', radius: 3, distance: 50, color: 0xe3e0c0, orbitSpeed: 0.03, rotationSpeed: 0.045, hasRings: true, moons: [{ name: 'Titan', radius: 0.35, distance: 5.5, color: 0xffaa00, speed: 0.03 }] },
-  { name: 'Uranus', radius: 2, distance: 64, color: 0x4b70dd, orbitSpeed: 0.01, rotationSpeed: -0.03, moons: [{ name: 'Titania', radius: 0.15, distance: 3.5, color: 0xdddddd, speed: 0.04 }] },
-  { name: 'Neptune', radius: 1.9, distance: 76, color: 0x274687, orbitSpeed: 0.006, rotationSpeed: 0.03, moons: [{ name: 'Triton', radius: 0.18, distance: 3.5, color: 0xaaaaff, speed: -0.04 }] },
-  { name: 'Pluton', radius: 0.18, distance: 88, color: 0xdddddd, orbitSpeed: 0.004, rotationSpeed: 0.01, moons: [{ name: 'Charon', radius: 0.09, distance: 0.5, color: 0xaaaaaa, speed: 0.1 }] },
-  { name: 'Nibiru', radius: 2.5, distance: 110, color: 0x8b0000, orbitSpeed: 0.002, rotationSpeed: 0.02, moons: [] }
+  { name: 'Soleil', radius: 15, distance: 0, color: 0xffcc00, orbitSpeed: 0, rotationSpeed: 0.005, moons: [] },
+  { name: 'Mercure', radius: 0.38, distance: 24, color: 0xa8a8a8, orbitSpeed: 4.15, rotationSpeed: 0.01, moons: [] },
+  { name: 'Vénus', radius: 0.95, distance: 30, color: 0xe3bb76, orbitSpeed: 1.62, rotationSpeed: -0.002, moons: [] },
+  { name: 'Terre', radius: 1, distance: 38, color: 0x4b9fe3, orbitSpeed: 1, rotationSpeed: 0.02, moons: [{ name: 'Lune', radius: 0.27, distance: 2.5, color: 0xcccccc, speed: 0.05 }] },
+  { name: 'Mars', radius: 0.53, distance: 46, color: 0xe27b58, orbitSpeed: 0.53, rotationSpeed: 0.02, moons: [{ name: 'Phobos', radius: 0.1, distance: 1.2, color: 0x888888, speed: 0.08 }, { name: 'Deimos', radius: 0.08, distance: 1.8, color: 0xaaaaaa, speed: 0.06 }] },
+  { name: 'Jupiter', radius: 8, distance: 75, color: 0xc88b3a, orbitSpeed: 0.08, rotationSpeed: 0.05, moons: [{ name: 'Io', radius: 0.28, distance: 10, color: 0xffff00, speed: 0.04 }, { name: 'Europe', radius: 0.24, distance: 12, color: 0xeeeeff, speed: 0.03 }, { name: 'Ganymède', radius: 0.41, distance: 15, color: 0xbbbbbb, speed: 0.02 }, { name: 'Callisto', radius: 0.37, distance: 18, color: 0x888888, speed: 0.01 }] },
+  { name: 'Saturne', radius: 7, distance: 115, color: 0xe3e0c0, orbitSpeed: 0.03, rotationSpeed: 0.045, hasRings: true, moons: [{ name: 'Titan', radius: 0.40, distance: 14, color: 0xffaa00, speed: 0.03 }] },
+  { name: 'Uranus', radius: 3.5, distance: 150, color: 0x4b70dd, orbitSpeed: 0.01, rotationSpeed: -0.03, moons: [{ name: 'Titania', radius: 0.12, distance: 5.5, color: 0xdddddd, speed: 0.04 }] },
+  { name: 'Neptune', radius: 3.4, distance: 180, color: 0x274687, orbitSpeed: 0.006, rotationSpeed: 0.03, moons: [{ name: 'Triton', radius: 0.21, distance: 5.5, color: 0xaaaaff, speed: -0.04 }] },
+  { name: 'Pluton', radius: 0.18, distance: 205, color: 0xdddddd, orbitSpeed: 0.004, rotationSpeed: 0.01, moons: [{ name: 'Charon', radius: 0.09, distance: 0.8, color: 0xaaaaaa, speed: 0.1 }] },
+  { name: 'Nibiru', radius: 4, distance: 240, color: 0x8b0000, orbitSpeed: 0.002, rotationSpeed: 0.02, moons: [] }
 ];
 
 const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focusedPlanet }) => {
@@ -39,13 +39,14 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
     if (!containerRef.current) return;
 
     const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 2000);
+    const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 3000);
     camera.position.set(0, 40, 80);
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    renderer.toneMapping = THREE.ReinhardToneMapping;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.2;
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     containerRef.current.appendChild(renderer.domElement);
@@ -53,15 +54,15 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.dampingFactor = 0.05;
-    controls.maxDistance = 600;
+    controls.maxDistance = 1000;
     controls.minDistance = 2;
 
-    // Lighting
-    const ambientLight = new THREE.AmbientLight(0x444444); // Softer ambient
+    // Lighting - Adjusted for better contrast and visibility
+    const ambientLight = new THREE.AmbientLight(0x666666); // Brighter ambient
     scene.add(ambientLight);
-    const hemisphereLight = new THREE.HemisphereLight(0xffffff, 0x222222, 0.4); // Added hemisphere light
+    const hemisphereLight = new THREE.HemisphereLight(0xffffff, 0x444444, 0.6); // Brighter hemisphere
     scene.add(hemisphereLight);
-    const pointLight = new THREE.PointLight(0xffffff, 3, 500);
+    const pointLight = new THREE.PointLight(0xffffff, 4, 1000); // Stronger point light
     pointLight.castShadow = true;
     pointLight.shadow.mapSize.width = 2048;
     pointLight.shadow.mapSize.height = 2048;
@@ -70,25 +71,30 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
 
     // Starfield
     const starsGeo = new THREE.BufferGeometry();
-    const starsCount = 3000;
+    const starsCount = 4000;
     const posArray = new Float32Array(starsCount * 3);
     for(let i = 0; i < starsCount * 3; i++) {
-      posArray[i] = (Math.random() - 0.5) * 1000;
+      posArray[i] = (Math.random() - 0.5) * 1500;
     }
     starsGeo.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
-    const starsMat = new THREE.PointsMaterial({ size: 0.6, color: 0xffffff, transparent: true, opacity: 0.8 });
+    const starsMat = new THREE.PointsMaterial({ size: 0.8, color: 0xffffff, transparent: true, opacity: 0.8 });
     const starMesh = new THREE.Points(starsGeo, starsMat);
     scene.add(starMesh);
 
     // Planets
     const planetMeshes: { [key: string]: THREE.Mesh | THREE.Group } = {};
+    const planetGroups: { [key: string]: THREE.Group } = {};
     const orbitLines: THREE.Line[] = [];
     const planetAngles: { [key: string]: number } = {};
 
-    const sphereGeo = new THREE.SphereGeometry(1, 32, 32);
+    const sphereGeo = new THREE.SphereGeometry(1, 64, 64);
 
     planetsData.forEach(data => {
       planetAngles[data.name] = Math.random() * Math.PI * 2;
+
+      const planetGroup = new THREE.Group();
+      scene.add(planetGroup);
+      planetGroups[data.name] = planetGroup;
 
       let mesh;
       if (data.name === 'Soleil') {
@@ -96,11 +102,11 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
         mesh = new THREE.Mesh(sphereGeo, sunMat);
         
         // Sun glow
-        const glowGeo = new THREE.SphereGeometry(1.2, 32, 32);
+        const glowGeo = new THREE.SphereGeometry(1.15, 64, 64);
         const glowMat = new THREE.ShaderMaterial({
           uniforms: {
-            c: { value: 0.2 },
-            p: { value: 2.0 },
+            c: { value: 0.15 },
+            p: { value: 2.5 },
             glowColor: { value: new THREE.Color(0xffbb00) },
             viewVector: { value: camera.position }
           },
@@ -110,7 +116,7 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
             void main() {
               vec3 vNormal = normalize(normalMatrix * normal);
               vec3 vNormel = normalize(normalMatrix * viewVector);
-              intensity = pow(0.65 - dot(vNormal, vNormel), 2.0);
+              intensity = pow(0.65 - dot(vNormal, vNormel), 2.5);
               gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
             }
           `,
@@ -133,8 +139,8 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
       } else {
         const mat = new THREE.MeshStandardMaterial({ 
           color: data.color,
-          roughness: 0.6,
-          metalness: 0.2
+          roughness: 0.4,
+          metalness: 0.1
         });
         mesh = new THREE.Mesh(sphereGeo, mat);
         mesh.castShadow = true;
@@ -146,7 +152,8 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
             color: 0xc9b793, 
             side: THREE.DoubleSide,
             transparent: true,
-            opacity: 0.9
+            opacity: 0.9,
+            roughness: 0.5
           });
           const ring = new THREE.Mesh(ringGeo, ringMat);
           ring.rotation.x = Math.PI / 2 + 0.3;
@@ -154,39 +161,48 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
           ring.receiveShadow = true;
           mesh.add(ring);
         }
-
-        if (data.moons && data.moons.length > 0) {
-          mesh.userData.moons = [];
-          data.moons.forEach(moonData => {
-            const moonPivot = new THREE.Group();
-            mesh.add(moonPivot);
-            const moonGeo = new THREE.SphereGeometry(moonData.radius, 16, 16);
-            const moonMat = new THREE.MeshStandardMaterial({ color: moonData.color, roughness: 0.8 });
-            const moonMesh = new THREE.Mesh(moonGeo, moonMat);
-            moonMesh.position.x = moonData.distance;
-            moonMesh.castShadow = true;
-            moonMesh.receiveShadow = true;
-            moonPivot.add(moonMesh);
-            mesh.userData.moons.push({ pivot: moonPivot, speed: moonData.speed });
-          });
-        }
       }
 
       mesh.scale.setScalar(data.radius);
-      scene.add(mesh);
+      planetGroup.add(mesh);
       planetMeshes[data.name] = mesh;
+      mesh.userData.isPlanet = true;
+
+      if (data.moons && data.moons.length > 0) {
+        planetGroup.userData.moons = [];
+        data.moons.forEach(moonData => {
+          const moonPivot = new THREE.Group();
+          planetGroup.add(moonPivot);
+          const moonGeo = new THREE.SphereGeometry(1, 32, 32);
+          const moonMat = new THREE.MeshStandardMaterial({ color: moonData.color, roughness: 0.6, metalness: 0.1 });
+          const moonMesh = new THREE.Mesh(moonGeo, moonMat);
+          moonMesh.scale.setScalar(moonData.radius);
+          moonMesh.position.x = moonData.distance;
+          moonMesh.castShadow = true;
+          moonMesh.receiveShadow = true;
+          moonPivot.add(moonMesh);
+          planetGroup.userData.moons.push({ 
+            pivot: moonPivot, 
+            speed: moonData.speed, 
+            mesh: moonMesh,
+            baseRadius: moonData.radius,
+            baseDistance: moonData.distance
+          });
+          planetMeshes[moonData.name] = moonMesh; // Add moon to focusable meshes
+        });
+      }
 
       // Orbit line
       if (data.distance > 0) {
         const orbitGeo = new THREE.BufferGeometry();
         const orbitPts = [];
-        const segments = 128;
+        const segments = 256;
         for (let i = 0; i <= segments; i++) {
           const theta = (i / segments) * Math.PI * 2;
           orbitPts.push(new THREE.Vector3(Math.cos(theta) * data.distance, 0, Math.sin(theta) * data.distance));
         }
         orbitGeo.setFromPoints(orbitPts);
-        const orbitMat = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.2 });
+        const orbitMat = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.15 });
         const orbitLine = new THREE.Line(orbitGeo, orbitMat);
         scene.add(orbitLine);
         orbitLines.push(orbitLine);
@@ -195,43 +211,43 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
 
     // Asteroid Belt
     const beltGeometry = new THREE.BufferGeometry();
-    const beltCount = 3000;
+    const beltCount = 4000;
     const beltPositions = new Float32Array(beltCount * 3);
     for(let i=0; i<beltCount; i++) {
        const angle = Math.random() * Math.PI * 2;
-       const r = 26 + Math.random() * 8; // between Mars(24) and Jupiter(36)
+       const r = 52 + Math.random() * 16; // between Mars(46) and Jupiter(75)
        beltPositions[i*3] = Math.cos(angle) * r;
-       beltPositions[i*3+1] = (Math.random() - 0.5) * 2; // slight vertical spread
+       beltPositions[i*3+1] = (Math.random() - 0.5) * 3; // slight vertical spread
        beltPositions[i*3+2] = Math.sin(angle) * r;
     }
     beltGeometry.setAttribute('position', new THREE.BufferAttribute(beltPositions, 3));
-    const beltMaterial = new THREE.PointsMaterial({ color: 0x888888, size: 0.1 });
+    const beltMaterial = new THREE.PointsMaterial({ color: 0x888888, size: 0.15 });
     const asteroidBelt = new THREE.Points(beltGeometry, beltMaterial);
     scene.add(asteroidBelt);
 
     // Oort Cloud
     const oortGeometry = new THREE.BufferGeometry();
-    const oortCount = 8000;
+    const oortCount = 10000;
     const oortPositions = new Float32Array(oortCount * 3);
     for(let i=0; i<oortCount; i++) {
        const u = Math.random();
        const v = Math.random();
        const theta = u * 2.0 * Math.PI;
        const phi = Math.acos(2.0 * v - 1.0);
-       const r = 150 + Math.random() * 100; // Far away
+       const r = 300 + Math.random() * 200; // Far away
        const sinPhi = Math.sin(phi);
        oortPositions[i*3] = r * sinPhi * Math.cos(theta);
        oortPositions[i*3+1] = r * Math.sin(phi);
        oortPositions[i*3+2] = r * sinPhi * Math.sin(theta);
     }
     oortGeometry.setAttribute('position', new THREE.BufferAttribute(oortPositions, 3));
-    const oortMaterial = new THREE.PointsMaterial({ color: 0x555577, size: 0.2, transparent: true, opacity: 0.6 });
+    const oortMaterial = new THREE.PointsMaterial({ color: 0x555577, size: 0.3, transparent: true, opacity: 0.6 });
     const oortCloud = new THREE.Points(oortGeometry, oortMaterial);
     scene.add(oortCloud);
 
     // Post Processing
     const renderScene = new RenderPass(scene, camera);
-    const bloomPass = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.innerHeight), 1.5, 0.4, 0.85);
+    const bloomPass = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.innerHeight), 0.8, 0.4, 0.85); // Reduced bloom strength
     const outputPass = new OutputPass();
     
     const composer = new EffectComposer(renderer);
@@ -256,12 +272,21 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
 
       // Update Planets
       planetsData.forEach(data => {
+        const planetGroup = planetGroups[data.name];
         const mesh = planetMeshes[data.name];
-        if (!mesh) return;
+        if (!planetGroup || !mesh) return;
 
         // Scale
         const scaleMultiplier = data.name === 'Soleil' ? 1 : props.planetScale;
         mesh.scale.setScalar(data.radius * scaleMultiplier);
+        
+        // Scale moons
+        if (planetGroup.userData.moons) {
+          planetGroup.userData.moons.forEach((moonObj: any) => {
+             moonObj.mesh.scale.setScalar(moonObj.baseRadius * scaleMultiplier);
+             moonObj.mesh.position.x = moonObj.baseDistance * scaleMultiplier;
+          });
+        }
 
         // Rotation
         mesh.rotation.y += data.rotationSpeed * props.timeSpeed * delta * 60;
@@ -270,17 +295,18 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
         if (data.distance > 0) {
           planetAngles[data.name] += data.orbitSpeed * 0.005 * props.timeSpeed * delta * 60;
           const angle = planetAngles[data.name];
-          mesh.position.x = Math.cos(angle) * data.distance;
-          mesh.position.z = Math.sin(angle) * data.distance;
+          planetGroup.position.x = Math.cos(angle) * data.distance;
+          planetGroup.position.z = Math.sin(angle) * data.distance;
         }
 
         if (data.name === 'Soleil' && mesh.userData.glowMat) {
           mesh.userData.glowMat.uniforms.viewVector.value = new THREE.Vector3().subVectors(camera.position, mesh.position);
         }
 
-        if (mesh.userData.moons) {
-          mesh.userData.moons.forEach((moonObj: any) => {
+        if (planetGroup.userData.moons) {
+          planetGroup.userData.moons.forEach((moonObj: any) => {
             moonObj.pivot.rotation.y += moonObj.speed * props.timeSpeed * delta * 60;
+            moonObj.mesh.rotation.y += 0.02 * props.timeSpeed * delta * 60; // Moons rotate on their axis too
           });
         }
       });
@@ -295,10 +321,28 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
       if (currentFocus !== props.focusedPlanet) {
         currentFocus = props.focusedPlanet;
         isTransitioning = true;
+        
+        // Find radius of focused object
+        let radius = 5;
+        let isMoon = false;
+        
         const planetInfo = planetsData.find(p => p.name === currentFocus);
-        const radius = planetInfo ? planetInfo.radius * props.planetScale : 5;
-        // Calculate a good viewing distance: close enough to see it rotate, far enough to see context
-        targetDistance = Math.max(radius * 12, 15);
+        if (planetInfo) {
+           radius = planetInfo.radius * props.planetScale;
+        } else {
+           // Check if it's a moon
+           for (const p of planetsData) {
+             const moonInfo = p.moons.find(m => m.name === currentFocus);
+             if (moonInfo) {
+               radius = moonInfo.radius * props.planetScale;
+               isMoon = true;
+               break;
+             }
+           }
+        }
+        
+        // Calculate a good viewing distance
+        targetDistance = Math.max(radius * 10, isMoon ? 1.5 : 15);
         if (currentFocus === 'Soleil') targetDistance = 60; // Special case for the sun
       }
 
@@ -325,7 +369,7 @@ const Scene: React.FC<SceneProps> = ({ timeSpeed, planetScale, showOrbits, focus
           
           if (Math.abs(distDiff) > 0.5) {
             const dir = new THREE.Vector3().subVectors(camera.position, controls.target).normalize();
-            const step = distDiff * 0.05;
+            const step = distDiff * 0.08;
             camera.position.add(dir.multiplyScalar(step));
           } else {
             isTransitioning = false;
