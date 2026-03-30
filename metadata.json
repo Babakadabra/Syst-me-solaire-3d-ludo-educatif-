@@ -1,0 +1,5 @@
+{
+  "name": "Solar System Explorer",
+  "description": "An interactive 3D visualization of our solar system with adjustable time speed, planet scaling, and camera tracking.",
+  "requestFramePermissions": []
+}
