@@ -22,7 +22,9 @@ const planetData: Record<string, { emoji: string, fact: string, color: string }>
   'Jupiter': { emoji: '🟠', fact: "La plus grosse planète ! Elle est faite de gaz et a une énorme tempête qui tourne tout le temps.", color: "bg-orange-500" },
   'Saturne': { emoji: '🪐', fact: "La planète avec les magnifiques anneaux ! Ils sont faits de morceaux de glace et de cailloux.", color: "bg-yellow-200" },
   'Uranus': { emoji: '🧊', fact: "Une planète géante de glace qui tourne sur le côté, comme un tonneau !", color: "bg-cyan-300" },
-  'Neptune': { emoji: '❄️', fact: "La planète la plus éloignée. Elle est très froide et il y a des vents très très forts !", color: "bg-blue-600" }
+  'Neptune': { emoji: '❄️', fact: "La planète la plus éloignée. Elle est très froide et il y a des vents très très forts !", color: "bg-blue-600" },
+  'Pluton': { emoji: '⛄', fact: "Une toute petite planète naine, très loin et recouverte de glace !", color: "bg-gray-300" },
+  'Nibiru': { emoji: '👁️', fact: "La mystérieuse 10ème planète ! C'est une légende fascinante de l'espace.", color: "bg-red-900" }
 };
 
 const UIOverlay: React.FC<UIOverlayProps> = ({
